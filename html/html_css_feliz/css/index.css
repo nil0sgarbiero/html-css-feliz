@@ -1,0 +1,49 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #575555;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+
+nav {
+    text-align: right;
+}
+a {
+    display: inline-flex;
+    align-items: center;
+    color : #FFFFFF;
+    font-size: 20px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+a::before {
+    content: "";
+    background-color: #F12E4A;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px ;
+    
+}
+
+
+#button-header {
+    display: inline-block;
+    background-color: #F12E4A;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000;
+    margin-right: 0px;
+    transition: transform 100ms linear;
+}
+#button-header:hover{
+    background-color: #a3a3a3;
+    transform: scale(1.1);
+    
+}
+#button-header:active{
+    background-color: #000;
+}
+
