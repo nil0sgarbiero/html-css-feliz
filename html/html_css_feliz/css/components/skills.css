@@ -1,0 +1,16 @@
+.skills {
+    background-color: #F12E4A;
+    height: 730px;
+    padding-top: 50px;
+}
+
+.skills .title {
+    display: inline;
+    color: #fff;
+}
+
+.skills .subtitle {
+    text-decoration: none;  
+}
+
+

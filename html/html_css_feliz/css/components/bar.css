@@ -1,0 +1,39 @@
+.bar{
+    background-color: #fff;
+    border-color: #000;
+    border: 3px solid rgba(0,0,0,1);
+    border-radius: 3px;
+    overflow: hidden;
+    width: 480px;
+}
+
+.bar span{
+    height: 30px;
+    float: left;
+    background-color: #828282;
+}
+
+.html {
+    width: 60%;
+}
+.css {
+    width: 10%;
+}
+.javascript {
+    width: 2%;
+}
+.react {
+    width: 2%;
+}
+.nodejs {
+    width: 2%;
+}
+.vuejs {
+    width: 2%;
+}
+.php {
+    width: 10%;
+}
+.restapi {
+    width: 2%;
+}
